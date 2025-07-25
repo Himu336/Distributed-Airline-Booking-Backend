@@ -29,3 +29,8 @@ This section maps out each core microservice and its corresponding repository.
 | Flights Service          | Manages airports, airplanes, cities, and flight inventory with full CRUD support | [Airline-Flights-Service](https://github.com/Himu336/Airline-Flights-Service) |
 | Booking Service          | Handles seat bookings, cancellations, and payment coordination | [Airline-Booking-Service](https://github.com/Himu336/Airline-Booking-Service) |
 | Notification Service     | Sends booking confirmations and system alerts via email/SMS | [Airline-Notification-Service](https://github.com/Himu336/Airline-Notification-Service) |
+
+## 🚀 Test My Backend
+You can explore and test the complete flow of the airline booking system — from flight selection to booking confirmation and email notification — using the Postman collection below. This includes all available API endpoints across the microservices.
+
+🔗 **Postman Collection:** [Insert your Postman link here]
