@@ -30,6 +30,15 @@ This section maps out each core microservice and its corresponding repository.
 | Booking Service          | Handles seat bookings, cancellations, and payment coordination | [Airline-Booking-Service](https://github.com/Himu336/Airline-Booking-Service) |
 | Notification Service     | Sends booking confirmations and system alerts via email/SMS | [Airline-Notification-Service](https://github.com/Himu336/Airline-Notification-Service) |
 
+### 🗄️ MySQL Database Schema
+
+This project uses two dedicated MySQL databases to support the Booking, Flight, and Notification microservices. The schema ensures relational integrity with well-defined relationships across tables, enabling smooth communication and consistent data flow between services.
+
+
+#### 📌 Entity-Relationship Diagram
+![ER Diagram](./Distributed-Airline-Booking-db-1.png) ![ER Diagram](./Distributed-Airline-Booking-db-2.png)
+
+
 ## 🚀 Test My Backend
 You can explore and test the complete flow of the airline booking system — from flight selection to booking confirmation and email notification — using the Postman collection below. This includes all available API endpoints across the microservices.
 
