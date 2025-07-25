@@ -6,16 +6,15 @@ The **Distributed Airline Booking System** is a backend-centric project designed
 
 This repository represents the **centralized entry point** of the system, outlining the overall structure and **orchestration** across multiple backend services.
 
-### 🔑 Key Highlights:
-- **Service-Oriented Architecture (SOA)** — Clear separation of concerns across different domain-driven microservices.
+### 🔑 Key Highlights (Table Format):
 
-- **Scalable API Gateway with Authentication** — Acts as the single entry point for all client interactions, handling routing, request validation, authentication, and rate limiting.
-
-- **Asynchronous Service Orchestration** — Certain services interact via message queues (e.g., RabbitMQ) to coordinate workflows, reduce tight coupling, and improve resilience in multi-step operations.
-
-- **ACID-Compliant Databases** — Ensures data consistency, integrity, and reliability across core services like bookings and payments.
-
-- **Scalable, Observable Infrastructure** — Each microservice is designed to scale independently, with integrated observability (logs, metrics, traces) for real-time monitoring and debugging in distributed environments.
+| Feature                               | Description                                                                                                                                                      |
+|---------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Service-Oriented Architecture (SOA)**        | Clear separation of concerns across different domain-driven microservices.                                                                                         |
+| **Scalable API Gateway with Authentication**   | Acts as the single entry point for all client interactions, handling routing, request validation, authentication, and rate limiting.                              |
+| **Asynchronous Service Orchestration**        | Certain services interact via message queues (e.g., RabbitMQ) to coordinate workflows, reduce tight coupling, and improve resilience in multi-step operations.    |
+| **ACID-Compliant Databases**                  | Ensures data consistency, integrity, and reliability across core services like bookings and payments.                                                             |
+| **Scalable, Observable Infrastructure**       | Each microservice is designed to scale independently, with integrated observability (logs, metrics, traces) for real-time monitoring and debugging.               |
 
 ---
 
